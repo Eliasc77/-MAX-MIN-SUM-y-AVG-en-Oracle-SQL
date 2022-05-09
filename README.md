@@ -49,5 +49,6 @@
  | Martina Rodriguez | 30141414 |  Sarmiento 1234  | 14/12/2000  | Administracion | 3800| 4|
  | Andres Costa | 28444555 |  (null) | 08/08/1990  | Secretaria | (null)| (null)|
  
+ ___
  > Funcions MAX nos retorna el valor maximo q contine un campo especifico de la tabla.
  
