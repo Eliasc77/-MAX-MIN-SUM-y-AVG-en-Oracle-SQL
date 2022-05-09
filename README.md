@@ -51,4 +51,58 @@
  
  ___
  > Funcions MAX nos retorna el valor maximo q contine un campo especifico de la tabla.
- 
+
+```sql
+select MAX(sueldo) as "Mayor Sueldo" from empleados;
+```
+
+|Mayor Sueld |
+|--------- : |
+|5000|
+
+___
+>Funcion Min nos retorna el valor minimo q contine un campo especifico de la tabla
+ |Menor Sueldo|
+|--------- : |
+|2000|
+
+___
+
+```sql
+select MAX(sueldo) as "Mayor Sueldo", MIN (sueldo) as "Menor Sueldo" from empleados;
+```
+|Mayor Sueld | |Menor Sueldo|
+|--------- : |--------- : |
+|5000 | 2000|
+
+___
+```sql
+SELECT  max(cantidadhijos) as hijos
+FROM EMPLEADOS
+WHERE nombre like '%Perez%';
+```
+
+|Hijos|
+|----:|
+|3|
+___
+
+```sql
+SELECT  min(cantidadhijos) as hijos
+FROM EMPLEADOS
+WHERE nombre like '%Perez%';
+```
+
+|Hijos|
+|----:|
+|1|
+
+___
+
+>Funcion AVG, se encarga de calcular el promedio de los registros insertados en una tabla
+```sql
+select avg(sueldo) as from empleados
+```
+|avg(sueldo)|
+|----:|
+|3400|
