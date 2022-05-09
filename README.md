@@ -37,15 +37,17 @@
     
     >select * from empleados
 
- | nombre            | documento           |   domicilio   |  fechaingreso   |  seccion   |  sueldo  |
- | ------------------|:----------------:|----------------:| ---------:| -----------:| ------------------:|
- | Juan Perez | 22333444 |  Colon 123   | 08/10/1990  | Gerencia | 900.50|
- | Ana Acosta | 23444555 |  Caseros 987   | 18/12/1995  | Secretaria | 590.30|
- | Lucas Duarte | 25666777|  Sucre 235   | 15/05/2005  | Sistemas | 790|
- | Pamela Gonzalez | 26777888 |  Sarmiento 873   | 12/02/1999  | Secretaria | 550| 
- | Marcos Juarez | 30000111 |  Rivadavia 801   | 22/09/2002  | Contaduria | 630.70| 
- | Yolanda perez | 35111222 |  Colon 180   | 08/10/1990  | Administracion | 400|
- | Rodolfo perez | 35555888 |  Coronel Olmedo 588  | 28/05/1990  | Sistemas | 800| 
+ | nombre            | documento           |   domicilio   |  fechaingreso   |  seccion   |  sueldo  |  Cantidad  |
+ | ------------------|:----------------:|----------------:| ---------:| -----------:| ------------------:| --------:|
+ | Juan Perez | 22333444 |  Colon 123   | 10/10/1980 | Gerencia | 5000| 2|
+ | Ana Acosta | 23444555 |  Caseros 987   | 15/08/1998 | Secretaria | 2000|0|
+ | Lucas Duarte | 25666777|  Sucre 235   | (null)  | Sistemas | 4000|1|
+ | Pamela Gonzalez | 26777888 |  Sarmiento 873   | (null)  | Secretaria | 2200| 3|
+ | Marcos Juarez | 30000111 |  Rivadavia 801   | 26/08/2000  | Contaduria | 3000| 0|
+ | Yolanda perez | 35111222 |  Colon 180   | 25/09/2001  | Administracion | 3200| 1 | 
+ | Rodolfo perez | 35555888 |  Coronel Olmedo 588  | (null) | Sistemas | 4000| 3 |
+ | Martina Rodriguez | 30141414 |  Sarmiento 1234  | 14/12/2000  | Administracion | 3800| 4|
+ | Andres Costa | 28444555 |  (null) | 08/08/1990  | Secretaria | (null)| (null)|
  
  > Funcions MAX nos retorna el valor maximo q contine un campo especifico de la tabla.
  
