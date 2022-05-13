@@ -128,7 +128,7 @@ select sum(sueldo) as "Sumatoria de salarios" from empleados;
 |27200|
 
 
-```SQL
+```sql
 select sum(sueldo) as "Sumatoria de salarios" from empleados
 where seccion = 'Sistemas';
 ```
@@ -140,10 +140,10 @@ ___
 
 > MAX Y MIN tambien operan sobre tipo de datos fecha
 
-```SQL
+```sql
 select max(fechaingreso) as "Empleado mas nuevo" , min(fechaingreso) as "Empleado mas Viejo "from empleados;
 ```
 
-|Empleado mas nuevo | Empleado mas Viejoo|
-|:--------- : |:--------- : |
+| Empleado mas nuevo | Empleado mas Viejoo|
+| --------- :| --------- :|
 | 25/09/2001 | 10 /10/1980 |
