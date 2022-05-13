@@ -101,8 +101,48 @@ ___
 
 >Funcion AVG, se encarga de calcular el promedio de los registros insertados en una tabla
 ```sql
-select avg(sueldo) as from empleados
+select avg(sueldo) as "Promedio Sueldos" from empleados
 ```
-|avg(sueldo)|
+|Promedio Sueldos|
 |----:|
 |3400|
+
+
+```SQL
+select avg(sueldo) as "Promedio Secretarias" from empleados
+where seccion = 'Secretaria';
+```
+
+|Promedio Secretarias|
+|----:|
+|2100|
+
+___
+> SUM realiza la sumatoria de todo los registros de un campó en especifico
+
+```SQL
+select sum(sueldo) as "Sumatoria de salarios" from empleados;
+```
+|Sumatoria de salarios|
+|----:|
+|27200|
+
+
+```SQL
+select sum(sueldo) as "Sumatoria de salarios" from empleados
+where seccion = 'Sistemas';
+```
+|Sumatoria de salarios|
+|----:|
+|8000|
+
+___
+
+> MAX Y MIN tambien operan sobre tipo de datos fecha
+
+```SQL
+select max(fechaingreso) as "Empleado mas nuevo" , min(fechaingreso) as "Empleado mas Viejo "from empleados;
+```
+|Empleado mas nuevo| |Empleado mas Viejoo|
+|--------- : |--------- : |
+|25/09/2001|10 /10/1980|
