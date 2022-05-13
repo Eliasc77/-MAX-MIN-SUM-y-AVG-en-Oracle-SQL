@@ -71,8 +71,8 @@ ___
 ```sql
 select MAX(sueldo) as "Mayor Sueldo", MIN (sueldo) as "Menor Sueldo" from empleados;
 ```
-| Mayor Sueld | Menor Sueldo|
-| :--------- : | :--------- : |
+| Mayor Sueld | Menor Sueldo |
+| :--------- :|:--------- :|
 | 5000 | 2000 |
 
 ___
@@ -146,4 +146,4 @@ select max(fechaingreso) as "Empleado mas nuevo" , min(fechaingreso) as "Emplead
 
 | Empleado mas nuevo | Empleado mas Viejoo|
 | --------- :| --------- :|
-| 25/09/2001 | 10 /10/1980 |
+| 25/09/2001 | 10/10/1980 |
