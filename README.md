@@ -72,7 +72,7 @@ ___
 select MAX(sueldo) as "Mayor Sueldo", MIN (sueldo) as "Menor Sueldo" from empleados;
 ```
 | Mayor Sueld | Menor Sueldo |
-| :--------- :|:--------- :|
+| :---------- |--------- :|
 | 5000 | 2000 |
 
 ___
