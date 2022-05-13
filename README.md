@@ -144,5 +144,5 @@ ___
 select max(fechaingreso) as "Empleado mas nuevo" , min(fechaingreso) as "Empleado mas Viejo "from empleados;
 ```
 |Empleado mas nuevo| |Empleado mas Viejoo|
-|--------- : |--------- : |
+|:--------- : |:--------- : |
 |25/09/2001|10 /10/1980|
